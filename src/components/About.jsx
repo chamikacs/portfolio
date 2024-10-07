@@ -165,7 +165,7 @@ const About = () => {
 
       {/* Education Modal */}
       {isEducationOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-95 z-50 border-2 ">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-95 z-50">
           <div className="bg-gradient p-6 rounded-lg text-white max-w-md w-full relative">
             <button
               className="absolute top-2 right-2 text-white text-3xl font-bold p-2 hover:bg-white hover:text-black rounded-full transition"
